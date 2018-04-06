@@ -1,0 +1,3 @@
+<div class="wrapper">
+    <span *ngFor="let word of transcript" (dblclick)="wordClicked(word)" class="text" [ngClass]="{'highlight': (currentTime >= word.dataBegin) && (currentTime < (word.dataBegin + word.dataDur))}">{{word.word}}</span>
+</div>

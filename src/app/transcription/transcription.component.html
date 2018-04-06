@@ -1,0 +1,13 @@
+<table class="wrapper">
+  <tr *ngFor="let transcript of transcription">
+    <td class="transcriptDetails">
+      {{transcript.speaker}}
+    </td>
+    <td class="transcriptDetails">
+      {{transcript.time}}
+    </td>
+    <td class="transcript">
+      {{transcript.transcript}}
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,12 @@
+.text {
+    padding: 4px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background: yellow;
+}
